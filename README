@@ -64,6 +64,10 @@ Alpha
 -----------
 Allows transparency. Can be set in the alpha parameter that can also be set in Xresources.
 
+Anysize
+----------
+This patch allows st to resize to any pixel size, makes the inner border size dynamic, and centers the content of the terminal so that the left/right and top/bottom borders are balanced. With this patch, st on a tiling WM will always fill the entire space allocated to it.
+
 Requirements
 ------------
 In order to build st you need the Xlib header files.
